@@ -1,0 +1,44 @@
+{
+    "domain": "xrxss.com",
+    "modelUser": "30161538",
+    "path": "OU=Users,OU=Fortune,OU=Lexington,OU=Kentucky,OU=United States,OU=Humana,DC=XRXSS,DC=COM",
+    "description": "Created 9-1-16 WO0000001747858",
+    "passwordTemplate": "Xerox@12345",
+    "employees":[
+        {
+            "first_name": "Prakash",
+            "last_name": "CM",
+            "samAccountName": "50015643" 
+        },
+        {
+            "first_name": "Bindumitra",
+            "last_name": "Behura",
+            "samAccountName": "50015646" 
+        },
+        {
+            "first_name": "Sanjoy",
+            "last_name": "Das",
+            "samAccountName": "50015645" 
+        },
+        {
+            "first_name": "Prakash",
+            "last_name": "Khanda",
+            "samAccountName": "50015648" 
+        },
+        {
+            "first_name": "Pramod",
+            "last_name": "Patra",
+            "samAccountName": "50015649" 
+        },
+        {
+            "first_name": "Mohan",
+            "last_name": "R",
+            "samAccountName": "50015647" 
+        },
+        {
+            "first_name": "Sugyani",
+            "last_name": "Patra",
+            "samAccountName": "50015644" 
+        }
+    ]
+}
