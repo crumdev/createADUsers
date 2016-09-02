@@ -1,6 +1,11 @@
-﻿#
-# Script.ps1
+﻿<#
+# 
+# createADUsers.ps1
+# Author: Nathan Crum
+# Date: 2016-09-02
+# Version: 1.0.0
 #
+#>
 Import-Module ActiveDirectory
 
 # Store secure credentials to access the intended domain
@@ -30,6 +35,7 @@ for($i = 0; $i -le $users.count; $i++){
 		-Surname $users[$i].last_name `
 		-Path $data.path `
 		-SamAccountName $users[$i].samAccountName `
+		-UserPrincipalName $users[$i].samAccountName `
 		-DisplayName ([string]::Concat($users[$i].first_name," ",$users[$i].last_name)) `
 		-AccountPassword (ConvertTo-SecureString $data.passwordTemplate -AsPlainText -Force) `
 		-ChangePasswordAtLogon $true `

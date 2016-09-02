@@ -30,7 +30,7 @@
     <Content Include="users.json" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Script.ps1" />
+    <Compile Include="createADUsers.ps1" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Target Name="Build" />
